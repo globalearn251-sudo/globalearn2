@@ -207,14 +207,7 @@ export default function VipProductsPage() {
                   <span className="font-medium">Instant Earnings</span>
                   <span className="font-bold">+₹{selectedProduct.earnings.toFixed(2)}</span>
                 </div>
-                <div className="border-t pt-2 mt-2">
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Net Cost</span>
-                    <span className="font-bold text-lg">
-                      ₹{(selectedProduct.price - selectedProduct.earnings).toFixed(2)}
-                    </span>
-                  </div>
-                </div>
+                
               </div>
               {profile && profile.balance < selectedProduct.price && (
                 <div className="p-3 bg-destructive/10 border border-destructive/20 rounded-lg">
