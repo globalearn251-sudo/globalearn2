@@ -82,7 +82,7 @@ export default function SignupPage() {
               className="w-32 h-32 object-contain"
             />
             <div className="text-center">
-              <h1 className="text-3xl font-bold text-primary">BTRADE</h1>
+              <h1 className="text-3xl font-bold text-primary">Global Earning</h1>
               <p className="text-sm text-muted-foreground">Global Trading & Investment</p>
             </div>
           </div>
