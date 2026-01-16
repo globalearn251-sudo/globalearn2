@@ -326,27 +326,7 @@ export default function HomePage() {
           </CardContent>
         </Card>
 
-        {/* VIP Products Promotion */}
-        <Card className="bg-gradient-to-br from-yellow-500/10 to-orange-500/10 border-yellow-500/20">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Crown className="h-5 w-5 text-yellow-600" />
-              VIP Products
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <p className="text-sm text-muted-foreground mb-3">
-              Get instant earnings when you purchase VIP products! No waiting, immediate rewards.
-            </p>
-            <Button 
-              onClick={() => navigate('/vip-products')} 
-              className="w-full bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600"
-            >
-              <Crown className="mr-2 h-4 w-4" />
-              Explore VIP Products
-            </Button>
-          </CardContent>
-        </Card>
+        
 
         {/* Daily Reward */}
         <Card>
